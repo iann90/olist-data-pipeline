@@ -1,0 +1,32 @@
+# Secrets and credentials - never commit these
+.env
+*.env
+kaggle.json
+*.pem
+*.key
+secrets.*
+
+# Raw data - downloaded by the Bronze notebook, not stored here
+*.csv
+*.parquet
+data/raw/
+
+# Office temp files and Word drafts
+~$*
+*.tmp
+*.docx
+
+# Notebook and Python noise
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Power BI local cache and backups
+*.pbi/
+*.pbix.bak
+*.tmp.pbix
